@@ -1,0 +1,17 @@
+.container {
+  border-bottom: 1px rgb(153, 153, 153) solid;
+  padding-bottom: 20px;
+  font: 100% Noto Sans JP;
+  margin-left: 10px;
+  width: 100%;
+  span {
+    display: block;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.containerButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+  .containerIcons {
+    display: inline-flex;
+    border-radius: 25px;
+    border: solid grey 1px;
+    margin-right: 7px;
+    .icon {
+      width: 25px;
+      height: 25px;
+      filter: invert(70%);
+      cursor: pointer;
+      margin: 10px;
+    }
+  }
+}
